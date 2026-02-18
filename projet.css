@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #1b1b1b;
+}
+header {
+  
+  height: 100vh;
+  width: 100px;
+  padding: 20px ;
+  position: fixed;
+  font-family: "Nunito", sans-serif;
+  width: 300px;
+}
+
+ nav {
+
+ padding:0 15px;
+ border-radius: 20px;
+ margin-left: 20px;
+ border: 1px solid color-mix(in srgb, #FFFFFF, transparent 80%);
+}
+nav ul {
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+nav ul li {
+  margin-bottom: 2rem;
+  list-style: none;
+  color:#ffffff;
+}
+nav ul li a {
+  text-decoration: none;
+  color:#ffffff;
+  margin-left: 0.5em;
+  font-size: 16px;
+}
+nav ul li a:hover,nav ul li a:focus{
+  background-color: #ffffff
+}
+
+nav ul li a i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+nav ul li span{
+ justify-content: space-between;
+ margin: 25px;
+ font-size: 20px;
+ background-color:#444444;
+
+}
+.container-project-sociol {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.container-project-sociol i{
+  font-size: 16px;
+  color:#ffffff
+}
+.container-project-sociol div:hover{
+  background-color: #ffffff;
+}
+.social-project {
+  background-color: color-mix(in srgb, #ffff, transparent 90%);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%; 
+  position: relative;
+  padding: 10px;
+  font-size: 10px;
+  justify-content: space-around;
+}
+
+
+
