@@ -36,7 +36,7 @@ nav ul li a {
   font-size: 16px;
 }
 nav ul li a:hover,nav ul li a:focus{
-  color:white;
+  color:#ffffff;
 }
 nav ul li a i{
   font-size: 20px;
@@ -59,7 +59,7 @@ nav ul li span{
   color: #ffffff;
 }
 .container-project-sociol div:hover{
-  background-color: white;
+  background-color: #ffffff;
 }
 .social-project {
   background-color: color-mix(in srgb, #ffff, transparent 90%);
