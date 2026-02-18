@@ -62,14 +62,14 @@ nav ul li span{
 }
 .social-project {
   background-color: color-mix(in srgb, #ffff, transparent 90%);
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   text-align: center;
   border-radius: 50%; 
   position: relative;
   padding: 10px;
   font-size: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
