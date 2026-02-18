@@ -8,19 +8,15 @@ header {
   width: 100px;
   padding: 20px ;
   position: fixed;
- 
+  font-family: "Nunito", sans-serif;
 }
-nav {
-border: #444444 solid 2px;
-width: 300px;
-height: 85vh;
-margin-top: 10px;
-padding-left: 10px 0;
-border-radius: 20px;
-padding: 10px;
-margin-left: 10px;
-font-family: "Nunito", sans-serif;
 
+ nav {
+ width: 300px;
+ padding:0 15px;
+ border-radius: 20px;
+ margin-left: 20px;
+ border: 1px solid color-mix(in srgb, #FFFFFF, transparent 80%);
 }
 nav ul {
   margin-bottom: 0;
@@ -46,9 +42,11 @@ nav ul li a i{
   margin-right: 10px;
 }
 nav ul li span{
-justify-content: space-between;
-display: inline-block
-   
+ justify-content: space-between;
+ margin: 25px;
+ font-size: 20px;
+ background-color:#444444;
+
 }
 .container-project-sociol {
   display: flex;
@@ -66,8 +64,12 @@ display: inline-block
   background-color: color-mix(in srgb, #ffff, transparent 90%);
   width: 40px;
   height: 40px;
-  align-content: center;
-  border-radius: 10%;
+  text-align: center;
+  border-radius: 50%; 
+  position: relative;
+  padding: 10px;
+  font-size: 10px;
+  justify-content: space-between;
 }
 
 
