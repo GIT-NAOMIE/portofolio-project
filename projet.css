@@ -13,18 +13,18 @@ header {
 }
 
  nav {
-
  padding:0 15px;
  border-radius: 20px;
  margin-left: 20px;
  border: 1px solid color-mix(in srgb, #FFFFFF, transparent 80%);
 }
+
 nav ul {
   margin-bottom: 0;
   padding: 5px;
 }
 
-nav ul li {
+nav ul li{
   margin-bottom: 2rem;
   list-style: none;
   color:#ffffff;
@@ -36,7 +36,7 @@ nav ul li a {
   font-size: 16px;
 }
 nav ul li a:hover,nav ul li a:focus{
-  background-color: #ffffff
+  background-color: #ececec;
 }
 
 nav ul li a i{
@@ -48,7 +48,12 @@ nav ul li span{
  margin: 25px;
  font-size: 20px;
  background-color:#444444;
-
+ border-radius: 60%;
+ color:#ececec;
+ font-size: 20px;
+}
+nav ul li span:hover{
+  background-color: #ececec;
 }
 .container-project-sociol {
   display: flex;
@@ -74,5 +79,224 @@ nav ul li span{
   justify-content: space-around;
 }
 
+main {
+  margin-left: 300px;
+  
+}
+section {
+  padding: 45px;
+  min-height: 100vh;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-text {
+  width: 80%;
+  height: 80vh;
+  margin-bottom: 50px;
+  color: #ffffff;
+  font-size: 24px;
+  margin: 70px 0px;
+  line-height: 1.6;
+}
 
+.hero-text h1{
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+  font-weight: 600;
+ color:#ffffff;
+ font-family: "Ubuntu",sans-serif;
+ margin: 0px 0px 15px;
+ 
+}
 
+.hero-text h1 span{
+  color: #ffffff;;
+  text-decoration:underline;
+}
+.hero-text h2 {
+ margin:1px;
+ font-size: 24px;
+ font-weight:300;
+ color:#ffffff;
+ font-family: "Ubuntu",sans-serif;
+ margin-bottom: 20px;
+}
+
+.hero-text p span{
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hero-text p {
+ margin-top:0px 0px 40px;
+ line-height: 1.6;
+ color:#ffffff;
+ max-width:500px;
+ font-family: "Roboto",sans-serif;
+ font-size: 16px;
+} 
+.bi-chevron-down{
+  font-size: 12px;
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+  background: #ececec;
+  border-radius: 60%;
+}
+.v-icon{
+  margin-left: 5px;
+  align-content: center;
+  display: flex;
+
+}
+.drop-div{
+  left: 240px;
+  position:absolute;
+  height: 5%;
+  width: 10%;
+  border-radius: 50%;
+  color: #1b1b1b;
+}
+.v-icon:hover{
+  border-color: #ececec;
+  color: #1b1b1b;
+}
+.section-bat {
+  display: flex;
+  gap: 30px;
+}
+
+.button-section {
+  background:#310606;
+  background:#ececec;
+  border: none;
+}
+.Get-section {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.button {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  border-radius: 50px;
+  font-weight: 600;
+  text-align: center;
+  align-content: center;
+  width: 35%;
+  height: 50px;
+  padding: 12px 25px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+ .Get-section :hover{
+  background-color: #ececec;
+ }
+ .section-bat :hover{
+  background-color: #ececec;
+}
+.icon-details{
+  display:inline-block;
+  list-style: none;
+  color: #ffffff;
+  margin-top: 40px;
+  gap: 25px;
+}
+.icon-section a{
+  color: #ffffff;
+  width: 20px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #444444;
+  padding: 10px;
+  margin-left: 1.5rem;
+ 
+}
+.icon-section a:hover{
+  background-color: #ececec;
+}
+.hero-img{
+  justify-content:space-evenly;
+  width: 90%;
+  
+}
+.hero-img img{
+  position: absolute;
+  height: 90vh;
+  width: 50%;
+ 
+}
+.hero-section img{
+ left: 5px;
+  width: 70%;
+  height: 55%;
+  margin: 70px;
+  border-radius: 30px;
+  top: 5px;
+  margin-left: 20px;
+
+}
+.hero-code{
+  background-color: #444444;
+  width: 75%;
+  height: 55%;
+  margin: 95px;
+  margin-left: 25px;
+  border-radius: 30px;
+  top: 300px;
+  left: 15px;
+}
+  .hero-text {
+  position: relative;
+}
+.decorative-shape {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 55%;
+    height: 50%;
+    background: #444444;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.2;
+    left: 40px;
+}
+.hero-img{
+  position: relative;
+}
+.photo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    right: 100px;
+    width: 25%;
+    height: 50%;
+    background: #444444;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.2;
+    left: 40px;
+}
+ .hero-img{
+  position: relative;
+ }
+.css-code{
+   position: absolute;
+    top: 20px;
+    left: 10px;
+    right: 50px;
+    width: 55%;
+    height: 50%;
+    background: #444444;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.2;
+    left: 40px;
+}
+ 
