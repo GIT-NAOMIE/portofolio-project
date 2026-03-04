@@ -617,7 +617,7 @@ section {
   gap: 40px;
  }
  
- .skills-section h1,.Resume h1,.Portfolio h1 ,.nurito h1{
+ .skills-section h1,.Resume h1,.Portfolio h1 ,.nurito h1,.service-section h1{
   font-size: 28px; 
   font-weight: 700;
   position: relative;
@@ -643,7 +643,7 @@ section {
   background-color:white ;
  }
   
- .skills-section h4 ,.Resume h4 ,.nurito h4 {
+ .skills-section h4 ,.Resume h4 ,.nurito h4,.service-section h4 {
   font-size: 16px;
   font-family: "Roboto",sans-serif;
   color: #ffffff;
@@ -1029,3 +1029,77 @@ margin-left: 20px;
  width: 100%;
  border-radius: 8px;
 }
+
+.service-section{
+  position: relative;
+  padding: 80px 20px;
+  margin-left: 20px;
+  margin-top: 700px;
+ }
+ .service-simple{
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+ }
+ .service-simple h5{
+  color: #ececec;
+  font-size: 30px;
+  font-family: "Ubuntu",sans-serif;
+  width: 70%;
+  max-width: 100%;
+ }
+ .service-min p {
+   font-size: 16px;
+   font-family: "Roboto",sans-serif;
+   color: #ffffff;
+   margin: 0 0 25px;
+   margin-left: 190px;
+   margin-top: 60px;
+   margin-bottom: 25px;
+  width: 50%;
+  max-width: 500px;
+ }
+ .but-section{
+  margin-left: 190px;
+  width: 40%;
+  height: 40px;
+ }
+
+ .service-cul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+ 
+ }
+
+ .service-inovas{
+   background-color: #1c1c1c;
+  padding: 40px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: white;
+  
+ }
+ .service-grid{
+  background-color: #2a2a2a;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 34px;
+  align-items: center;
+ }
+
+ .service-inovas h3{
+  font-size: 24px;
+  margin-bottom: 15px;
+ }
+ .service-inovas p{
+  color: #aaa;
+  line-height: 1.6;
+ }
