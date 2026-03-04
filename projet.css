@@ -1103,3 +1103,7 @@ margin-left: 20px;
   color: #aaa;
   line-height: 1.6;
  }
+
+ .service-inovas:hover{
+  background-color: #333;
+ }
