@@ -617,7 +617,7 @@ section {
   gap: 40px;
  }
  
- .skills-section h1,.Resume h1,.Portfolio h1 ,.nurito h1,.service-section h1,.Testimonials-section h1{
+ .skills-section h1,.Resume h1,.Portfolio h1 ,.nurito h1,.service-section h1,.Testimonials-section h1 ,.contact-section h1{
   font-size: 28px; 
   font-weight: 700;
   position: relative;
@@ -643,7 +643,7 @@ section {
   background-color:white ;
  }
   
- .skills-section h4 ,.Resume h4 ,.nurito h4,.service-section h4  ,.Testimonials-section h4{
+ .skills-section h4 ,.Resume h4 ,.nurito h4,.service-section h4  ,.Testimonials-section h4 ,.contact-section h4{
   font-size: 16px;
   font-family: "Roboto",sans-serif;
   color: #ffffff;
@@ -1188,3 +1188,154 @@ margin-left: 20px;
   background-color: #444444;
  }
  
+ .contact{
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  max-width: 1500px;
+  height: 640px;
+  
+ }
+
+ .contact-container{
+  width: 280px;
+  height: 500px;
+  background:#f5f5f5;
+  padding: 40px;
+  border-radius: 5%;
+ }
+ .contact-container h2{
+  font-size: 1.75rem;
+  color: #310606;
+  font-family:"Ubuntu",sans-serif ;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+ }
+
+  .contact-container p{
+    font-size: 16px;
+    font-family: "Roboto",sans-serif;
+    margin: 0px 0px 32px;
+     color: #310606;
+  }
+ .info{
+  display: flex;
+  margin-top: 20px;
+ }
+.contact-we{
+  width: 50px;
+  height: 50px;
+  background: #3106;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: "Roboto",sans-serif;
+  align-items: center;
+  justify-content: center;
+  
+}
+h5{
+  font-size: 20px;
+   font-family: "Roboto",sans-serif;
+   margin: 0px 0px 8px;
+  
+}
+ .contact-right{
+   background-color: #2a2a2a;
+   border-radius: 10px;
+   width: 400%
+ }
+
+.contact-right h2{
+  font-size: 28px;
+  font-family: "Ubuntu",sans-serif;
+  margin: 0px 0px 16px;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+ .contact-right p{
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  margin: 0px 0px 32px;
+  margin-bottom: 2rem;
+  color: #ececec;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+  .contact-con{
+    display: flex;
+    gap: 40px;
+  }
+  .cotac{
+  background:#232323;;
+  background-color: transparent;
+  color: #ececec;
+  border: 1px solid #444444;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.75rem;
+  font-weight: 300;
+  text-align: left;
+  width: 85%;
+  height: 50px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 20px;
+  }
+
+   .coco{
+    display: block;
+    gap: 30px;
+   }
+   .cont{
+    background:#232323;;
+  background-color: transparent;
+  color: #ececec;
+  border: 1px solid #444444;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.75rem;
+  font-weight: 300;
+ text-align: left;
+  width: 95%;
+  height: 60px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 20px;
+   }
+   .Emai{
+     background:#232323;;
+  background-color: transparent;
+  color: #ececec;
+  border: 1px solid #444444;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  border-radius: 0.75rem;
+  font-weight: 300;
+ text-align: left;
+  width: 95%;
+  height: 165px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 20px;
+  }
+
+  .rqw{
+    background-color: white;
+  color: #310606;
+  border: 1px solid white;
+  width: 30%;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  border-radius: 6px;
+  font-weight: 500;
+  text-align: center;
+  align-content: center;
+  height: 50px;
+  margin-left: 200px;
+  margin-top: 30px;
+  }
