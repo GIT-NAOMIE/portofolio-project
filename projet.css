@@ -1339,3 +1339,17 @@ h5{
   margin-left: 200px;
   margin-top: 30px;
   }
+
+  .footer{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #444;
+    margin-left: 350px;
+  }
+  .footer-container p{
+    margin: 5px 0;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+  }
